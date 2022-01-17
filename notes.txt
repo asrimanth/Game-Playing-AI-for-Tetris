@@ -1,0 +1,27 @@
+-> Simple game:
+    -> Generate successors
+    -> Write a cost function
+    -> Perform expectiminimax with alpha-beta pruning, limit it with some depth
+    -> return the move with the least cost
+
+-> Generating successors:
+    -> get the next piece
+    -> Perform all moves
+    -> drop it
+
+-> Write a cost function:
+    -> https://hal.inria.fr/hal-00926213/document
+
+-> Expectiminimax problems:
+    -> Bubble up the path correctly
+    -> Perform the move to the successor state correctly
+    -> Look at how the pieces fall instead of all successors
+
+-> Utility function
+    -> Height of all cols (mean and max)
+    -> Deepest well
+    -> 
+Generate weights for genetic algorithm
+Arrange Utility functions in priority
+
+Problem: Not a high score., max is around 15.
